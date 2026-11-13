@@ -1,13 +1,18 @@
 {
   "name": "raea",
-  "owner": { "name": "raea", "url": "https://raea.io" },
+  "owner": { "name": "Achi-Akira", "url": "https://github.com/Achi-Akira/raea" },
   "metadata": {
-    "description": "raea's plugin for Claude, from the skills/ folder of shinyobjectz/raea-skills: the raea skill and its hooks."
+    "description": "Achi-Akira's raea marketplace: the raea skill and its hooks from the skills/ folder of shinyobjectz/raea-skills, pinned to the commit this fork's skills submodule uses."
   },
   "plugins": [
     {
       "name": "raea",
-      "source": { "source": "git-subdir", "url": "https://github.com/shinyobjectz/raea-skills.git", "path": "skills" },
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/shinyobjectz/raea-skills.git",
+        "path": "skills",
+        "sha": "7c835cc6ca18bda7e99aa0ce4e46880e7ad8bfb8"
+      },
       "description": "Make video, motion graphics, games and 3D scenes with raea, the Render Anything Engine: the raea skill, and hooks that run raea's quick check on a composition after it's saved and show media in the raea app instead of the Mac's viewer."
     }
   ]
