@@ -1,0 +1,5 @@
+frames/
+frames2/
+out/*
+!out/anime-pingpong-share.mp4
+!out/sheet-v3.png
